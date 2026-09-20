@@ -1,0 +1,16 @@
+{
+  "name": "lernki-backend",
+  "version": "1.0.0",
+  "description": "Backend/KI-Verarbeitungsschicht fuer die LernKI-App. Nimmt Anfragen von der Android-App entgegen, ruft das konfigurierte KI-Modell auf und liefert strukturierte Ergebnisse zurueck.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "@anthropic-ai/sdk": "^0.27.0"
+  }
+}
